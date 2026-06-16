@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:wargreymon",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:wargreymon",
+     "model": "cobblemon:wargreymon.geo",
+     "texture": "cobblemon:textures/pokemon/4999_wargreymon/wargreymon.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/4999_wargreymon/wargreymon_shiny.png"
+   }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "rootBone": "caprimon",
+ "portraitScale": 2.6,
+ "portraitTranslation": [ -0.3, -2.3, 0 ],
+ "profileScale": 1.5,
+ "profileTranslation": [ 0, -0.7, 0 ],
+ "animations": {
+   "faint": "q.bedrock_primary('caprimon', 'faint', q.curve('one'))",
+   "cry": "q.bedrock_stateful('caprimon', 'cry')",
+   "recoil": "q.bedrock_stateful('caprimon', 'recoil')"
+   },
+ "poses": {
+    "battle_standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('caprimon', 'battle_idle')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('body')",
+        "q.bedrock('caprimon', 'ground_idle')"
+      ]
+    },
+   "walking": {
+     "poseTypes": [ "WALK" ],
+     "animations": [
+     "q.bedrock('caprimon', 'ground_walk')"
+     ]
+   },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('caprimon', 'sleep')"]
+    },
+    "shoulder_left": {
+      "poseTypes": ["SHOULDER_LEFT"],
+      "animations": [
+        "q.bedrock('caprimon', 'shoulder_left')"
+      ]
+    },
+    "shoulder_right": {
+      "poseTypes": ["SHOULDER_RIGHT"],
+      "animations": [
+        "q.bedrock('caprimon', 'shoulder_right')"
+      ]
+    }
+ }
+}
+

@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:hagurumon",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:hagurumon",
+     "model": "cobblemon:hagurumon.geo",
+     "texture": "cobblemon:textures/pokemon/5002_hagurumon/hagurumon.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/5002_hagurumon/hagurumon_shiny.png"
+   }
+ ]
+}

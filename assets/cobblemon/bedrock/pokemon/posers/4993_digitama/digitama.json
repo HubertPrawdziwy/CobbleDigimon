@@ -1,0 +1,27 @@
+{
+ "rootBone": "digitama",
+ "portraitScale": 1,
+ "portraitTranslation": [ 0, 0, 0 ],
+ "profileScale": 1,
+ "profileTranslation": [ 0, 0, 0 ],
+ "poses": {
+   "standing": {
+     "poseTypes": ["STAND", "NONE"],
+     "animations": [
+       "q.bedrock('digitama', 'ground_idle')"
+     ]
+   },
+   "portrait": {
+     "poseTypes": ["PORTRAIT"],
+     "animations": [
+       "q.bedrock('digitama', 'ground_idle')"
+     ]
+   },
+   "profile": {
+     "poseTypes": ["PROFILE"],
+     "animations": [
+       "q.bedrock('digitama', 'ground_idle')"
+     ]
+   }
+ }
+}

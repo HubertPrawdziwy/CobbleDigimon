@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:skullgreymon",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:skullgreymon",
+     "model": "cobblemon:skullgreymon.geo",
+     "texture": "cobblemon:textures/pokemon/5006_skullgreymon/skullgreymon.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/5006_skullgreymon/skullgreymon_shiny.png"
+   }
+ ]
+}

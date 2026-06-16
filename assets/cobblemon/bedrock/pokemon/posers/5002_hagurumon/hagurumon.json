@@ -1,0 +1,46 @@
+{
+ "rootBone": "hagurumon",
+ "portraitScale": 2,
+ "portraitTranslation": [ -0.1, -0.6, 0 ],
+ "profileScale": 1,
+ "profileTranslation": [ 0, 0, 0 ],
+ "animations": {
+   "faint": "q.bedrock_primary('hagurumon', 'faint', q.curve('one'))",
+   "cry": "q.bedrock_stateful('hagurumon', 'cry')",
+   "recoil": "q.bedrock_stateful('hagurumon', 'recoil')"
+ },
+ "poses": {
+  "battle_standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('hagurumon', 'battle_idle')"
+      ]
+  }, 
+  "standing": {
+     "poseTypes": ["STAND", "NONE"],
+     "isBattle": false,
+     "animations": [
+       "q.bedrock('hagurumon', 'ground_idle')"
+     ]
+   },
+   "portrait": {
+     "poseTypes": ["PORTRAIT"],
+     "animations": [
+       "q.bedrock('hagurumon', 'ground_idle')"
+     ]
+   },
+   "profile": {
+     "poseTypes": ["PROFILE"],
+     "animations": [
+       "q.bedrock('hagurumon', 'ground_idle')"
+     ]
+   },
+   "walking": {
+     "poseTypes": ["WALK"],
+     "animations": [
+       "q.bedrock('hagurumon', 'ground_walk')"
+     ]
+   }
+ }
+}

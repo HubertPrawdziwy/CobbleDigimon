@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:tsunomon",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:tsunomon",
+     "model": "cobblemon:tsunomon.geo",
+     "texture": "cobblemon:textures/pokemon/5008_tsunomon/tsunomon.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/5008_tsunomon/tsunomon_shiny.png"
+   }
+ ]
+}

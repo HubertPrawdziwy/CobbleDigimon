@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:guardromon",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:guardromon",
+     "model": "cobblemon:guardromon.geo",
+     "texture": "cobblemon:textures/pokemon/5003_guardromon/guardromon.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/5003_guardromon/guardromon_shiny.png"
+   }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:agumon",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:agumon",
+     "model": "cobblemon:agumon.geo",
+     "texture": "cobblemon:textures/pokemon/4996_agumon/agumon.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/4996_agumon/agumon_shiny.png"
+   }
+ ]
+}

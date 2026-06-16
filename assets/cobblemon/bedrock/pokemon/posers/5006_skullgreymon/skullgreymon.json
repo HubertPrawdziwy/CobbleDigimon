@@ -1,0 +1,50 @@
+{
+  "rootBone": "skullgreymon",
+  "portraitScale": 1.2,
+  "portraitTranslation": [0, 0.8, 0],
+  "profileScale": 0.8,
+  "profileTranslation": [0, 0.6, 0],
+  "firstPersonCameraOffset": {
+    "seat_1": [0, 0.45, 0]
+  },
+  "thirdPersonCameraOffset": {
+    "seat_1": [0, 1, 2.5],
+    "seat_1_reverse": [0, 1, 2.5]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_1": [0, 1, 1],
+    "seat_1_reverse": [0, 1, 0]
+  },
+  "animations": {
+    "faint": "q.bedrock_primary('skullgreymon', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('skullgreymon', 'cry')",
+    "physical": "q.bedrock_primary('skullgreymon', 'physical', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('skullgreymon', 'special', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('skullgreymon', 'recoil')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('skullgreymon', 'battle_idle')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('skullgreymon', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('skullgreymon', 'ground_walk')"
+      ]
+    }
+  }
+}

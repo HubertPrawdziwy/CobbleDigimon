@@ -1,0 +1,51 @@
+{
+  "rootBone": "tsunomon",
+  "portraitScale": 2,
+  "portraitTranslation": [0.1, -1.4, 0],
+  "profileScale": 1.5,
+  "profileTranslation": [0, -0.5, 0],
+  "animations": {
+    "faint": "q.bedrock_primary('tsunomon', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('tsunomon', 'cry')",
+    "recoil": "q.bedrock_stateful('tsunomon', 'recoil')"
+  },
+  "poses": {
+    "battle_standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('tsunomon', 'battle_idle')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('body')",
+        "q.bedrock('tsunomon', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.bedrock('tsunomon', 'ground_walk')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('tsunomon', 'sleep')"]
+    },
+    "shoulder_left": {
+      "poseTypes": ["SHOULDER_LEFT"],
+      "animations": [
+        "q.bedrock('tsunomon', 'shoulder_left')"
+      ]
+    },
+    "shoulder_right": {
+      "poseTypes": ["SHOULDER_RIGHT"],
+      "animations": [
+        "q.bedrock('tsunomon', 'shoulder_right')"
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:andromon",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:andromon",
+     "model": "cobblemon:andromon.geo",
+     "texture": "cobblemon:textures/pokemon/5004_andromon/andromon.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/5004_andromon/andromon_shiny.png"
+   }
+ ]
+}

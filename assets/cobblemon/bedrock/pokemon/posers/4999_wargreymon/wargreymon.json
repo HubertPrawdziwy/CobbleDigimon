@@ -1,0 +1,64 @@
+{
+ "rootBone": "wargreymon",
+ "portraitScale": 1,
+ "portraitTranslation": [ 0, 1.8, 0 ],
+ "profileScale": 0.6,
+ "profileTranslation": [ 0, 1.0, 0 ],
+ "firstPersonCameraOffset": {
+    "seat_1": [0, 0.45, 0]
+  },
+  "thirdPersonCameraOffset": {
+    "seat_1": [0, 1, 2.5],
+    "seat_1_reverse": [0, 1, 2.5]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_1": [0, 1, 1],
+    "seat_1_reverse": [0, 1, 0]
+  },
+  "animations": {
+    "faint": "q.bedrock_primary('wargreymon', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('wargreymon', 'cry')",
+    "physical": "q.bedrock_primary('wargreymon', 'physical', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('wargreymon', 'special', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('wargreymon', 'recoil')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('wargreymon', 'battle_idle')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('wargreymon', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('wargreymon', 'ground_walk')"
+      ]
+    },
+    "hover": {
+      "poseTypes": ["HOVER"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('wargreymon', 'air_idle')"
+      ]
+    },
+    "fly": {
+      "poseTypes": ["FLY"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('wargreymon', 'air_fly')"
+      ]
+    }
+  }
+}

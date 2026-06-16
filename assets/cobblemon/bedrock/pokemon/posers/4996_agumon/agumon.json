@@ -1,0 +1,62 @@
+{
+ "rootBone": "agumon",
+ "portraitScale": 1.2,
+ "portraitTranslation": [ 0, 0.2, 0 ],
+ "profileScale": 1.2,
+ "profileTranslation": [ 0, 0.2, 0 ],
+ "animations": {
+   "faint": "q.bedrock_primary('agumon', 'faint', q.curve('one'))",
+   "physical": "q.bedrock_primary('agumon', 'physical', q.curve('symmetrical_wide'))",
+   "special": "q.bedrock_primary('agumon', 'special', q.curve('symmetrical_wide'))",
+   "cry": "q.bedrock_stateful('agumon', 'cry')",
+   "recoil": "q.bedrock_stateful('agumon', 'recoil')"
+   },
+ "poses": {
+  "battle_standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('agumon', 'battle_idle')"
+      ]
+  },
+   "standing": {
+     "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+     "isBattle": false,
+     "animations": [
+       "q.look('head_ai', 1, 1, 70, -45, 45, -45)",
+       "q.bedrock('agumon', 'ground_idle')"
+     ]
+   },
+   "walking": {
+     "poseTypes": [ "WALK" ],
+     "animations": [
+     "q.bedrock('agumon', 'ground_walk')"
+     ]
+   },
+    "shoulder_left": {
+      "poseTypes": ["SHOULDER_LEFT"],
+      "animations": [
+        "q.bedrock('agumon', 'shoulder_left')"
+      ],
+      "transformedParts": [
+        {
+          "part": "body",
+          "position": [0, 10, 8]
+        }
+      ]
+
+    },
+    "shoulder_right": {
+      "poseTypes": ["SHOULDER_RIGHT"],
+      "animations": [
+        "q.bedrock('agumon', 'shoulder_right')"
+      ],
+      "transformedParts": [
+        {
+          "part": "body",
+          "position": [0, 10, 8]
+        }
+      ]
+    }
+ }
+}

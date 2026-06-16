@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:botamon",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:botamon",
+     "model": "cobblemon:botamon.geo",
+     "texture": "cobblemon:textures/pokemon/4994_botamon/botamon.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/4994_botamon/botamon_shiny.png"
+   }
+ ]
+}

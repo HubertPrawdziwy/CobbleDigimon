@@ -1,0 +1,56 @@
+{
+ "rootBone": "choromon",
+ "head": "head",
+ "portraitScale": 3.3,
+ "portraitTranslation": [ 0, -3.3, 0 ],
+ "profileScale": 1.5,
+ "profileTranslation": [ 0, -0.5, 0 ],
+  "animations": {
+   "faint": "q.bedrock_primary('choromon', 'faint', q.curve('one'))",
+   "cry": "q.bedrock_stateful('choromon', 'cry')",
+   "recoil": "q.bedrock_stateful('choromon', 'recoil')"
+ },
+ "poses": {
+    "battle_standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('choromon', 'battle_idle')"
+      ]
+    },
+   "standing": {
+     "poseName": "standing",
+     "transformTicks": 10,
+     "poseTypes": [
+       "STAND",
+       "NONE",
+       "PORTRAIT",
+       "PROFILE"
+     ],
+     "isBattle": false,
+     "animations": [
+       "q.look",
+       "q.bedrock('choromon', 'ground_idle')"
+     ]
+   },
+   "walking": {
+     "poseName": "walking",
+     "transformTicks": 10,
+     "poseTypes": [ "WALK" ],
+     "animations": [ "bedrock(choromon, ground_walk)" ]
+   },
+    "shoulder_left": {
+      "poseTypes": ["SHOULDER_LEFT"],
+      "animations": [
+        "q.bedrock('choromon', 'shoulder_left')"
+      ]
+    },
+    "shoulder_right": {
+      "poseTypes": ["SHOULDER_RIGHT"],
+      "animations": [
+        "q.bedrock('choromon', 'shoulder_right')"
+      ]
+    }
+   
+ }
+}

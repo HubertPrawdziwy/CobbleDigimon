@@ -1,0 +1,48 @@
+{
+ "rootBone": "andromon",
+ "portraitScale": 1,
+ "portraitTranslation": [ 0, 0, 0 ],
+ "profileScale": 1,
+ "profileTranslation": [ 0, 0, 0 ],
+ "animations": {
+   "faint": "q.bedrock_primary('andromon', 'faint', q.curve('one'))",
+   "physical": "q.bedrock_primary('andromon', 'physical', q.curve('symmetrical_wide'))",
+   "special": "q.bedrock_primary('andromon', 'special', q.curve('symmetrical_wide'))",
+   "recoil": "q.bedrock_stateful('andromon', 'recoil')"
+ },
+ "poses": {
+  "battle_standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('andromon', 'battle_idle')"
+      ]
+  },
+   "standing": {
+     "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+     "isBattle": false,
+     "animations": [
+       "q.look('head_ai', 1, 1, 70, -45, 45, -45)",
+       "q.bedrock('andromon', 'ground_idle')"
+     ]
+   },
+   "portrait": {
+     "poseTypes": ["PORTRAIT"],
+     "animations": [
+       "q.bedrock('andromon', 'ground_idle')"
+     ]
+   },
+   "profile": {
+     "poseTypes": ["PROFILE"],
+     "animations": [
+       "q.bedrock('andromon', 'ground_idle')"
+     ]
+   },
+   "walking": {
+     "poseTypes": ["WALK"],
+     "animations": [
+       "q.bedrock('andromon', 'ground_walk')"
+     ]
+   }
+ }
+}

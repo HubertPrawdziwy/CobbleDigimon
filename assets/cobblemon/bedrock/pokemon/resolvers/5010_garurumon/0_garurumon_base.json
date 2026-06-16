@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:garurumon",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:garurumon",
+     "model": "cobblemon:garurumon.geo",
+     "texture": "cobblemon:textures/pokemon/5010_garurumon/garurumon.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/5010_garurumon/garurumon_shiny.png"
+   }
+ ]
+}

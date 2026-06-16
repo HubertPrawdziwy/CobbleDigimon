@@ -1,0 +1,54 @@
+{
+ "rootBone": "greymon",
+ "portraitScale": 0.7,
+ "portraitTranslation": [ 0, 1.2, 0 ],
+ "profileScale": 0.7,
+ "profileTranslation": [ 0, 1.2, 0 ],
+ "firstPersonCameraOffset": {
+    "seat_1": [0, 0.45, 0]
+  },
+  "thirdPersonCameraOffset": {
+    "seat_1": [0, 0.4, 2.5],
+    "seat_1_reverse": [0, 0.4, 2.5]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_1": [0, 0.4, 0.5],
+    "seat_1_reverse": [0, 0.4, 0.5]
+  },
+ "animations": {
+   "faint": "q.bedrock_primary('greymon', 'faint', q.curve('one'))",
+   "cry": "q.bedrock_stateful('greymon', 'cry')",
+   "recoil": "q.bedrock_stateful('greymon', 'recoil')",
+   "physical": "q.bedrock_primary('greymon', 'physical', q.curve('symmetrical_wide'))",
+  "special": "q.bedrock_primary('greymon', 'special', q.curve('symmetrical_wide'))"
+   },
+ "poses": {
+  "battle_standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('greymon', 'battle_idle')"
+      ]
+  },
+   "standing": {
+     "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+     "isBattle": false,
+     "animations": [
+       "q.look('head_ai', 1, 1, 70, -45, 45, -45)",
+       "q.bedrock('greymon', 'ground_idle')"
+     ]
+   },
+   "walking": {
+     "poseTypes": [ "WALK" ],
+     "animations": [
+     "q.bedrock('greymon', 'ground_walk')"
+     ]
+   },
+   "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": [
+        "q.bedrock('greymon', 'sleep')"
+      ]
+ }
+}
+}

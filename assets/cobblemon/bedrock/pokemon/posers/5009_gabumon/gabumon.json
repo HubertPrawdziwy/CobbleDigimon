@@ -1,0 +1,37 @@
+{
+ "rootBone": "gabumon",
+ "portraitScale": 1.2,
+ "portraitTranslation": [ 0, 0.2, 0 ],
+ "profileScale": 1.2,
+ "profileTranslation": [ 0, 0.2, 0 ],
+ "animations": {
+   "faint": "q.bedrock_primary('gabumon', 'faint', q.curve('one'))",
+   "physical": "q.bedrock_primary('gabumon', 'physical', q.curve('symmetrical_wide'))",
+   "special": "q.bedrock_primary('gabumon', 'special', q.curve('symmetrical_wide'))",
+   "cry": "q.bedrock_stateful('gabumon', 'cry')",
+   "recoil": "q.bedrock_stateful('gabumon', 'recoil')"
+   },
+ "poses": {
+  "battle_standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('gabumon', 'battle_idle')"
+      ]
+  },
+   "standing": {
+     "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+     "isBattle": false,
+     "animations": [
+       "q.look('head_ai', 1, 1, 70, -45, 45, -45)",
+       "q.bedrock('gabumon', 'ground_idle')"
+     ]
+   },
+   "walking": {
+     "poseTypes": [ "WALK" ],
+     "animations": [
+     "q.bedrock('gabumon', 'ground_walk')"
+     ]
+   }
+ }
+}

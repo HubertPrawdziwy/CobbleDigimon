@@ -1,0 +1,127 @@
+{
+  "implemented": true,
+  "name": "agumon",
+  "nationalPokedexNumber": 4996,
+  "primaryType": "fire",
+  "abilities": [
+    "blaze",
+    "h:sheerforce"
+  ],
+  "baseStats": {
+    "hp": 67,
+    "attack": 89,
+    "defence": 53,
+    "special_attack": 79,
+    "special_defence": 52,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": true
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 1
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": -1,
+  "shoulderMountable": true,
+  "baseExperienceYield": 66,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 1,
+  "eggGroups": [
+    "dragon"
+  ],
+  "drops": {
+    "amount": 1,
+        "entries": [
+      {
+        "item": "minecraft:blaze_powder",
+        "quantityRange": "1-2",
+        "percentage": 30
+      }
+    ]
+  },
+  "moves": [
+    "1:bubble",
+    "3:scratch",
+    "5:bite",
+    "8:ember",
+    "16:flameburst",
+    "18:scaryface",
+    "21:slash",
+    "23:bulkup",
+    "24:firespin",
+    "27:machpunch",
+    "29:megakick",
+    "31:dragonrage",
+    "32:skyuppercut",
+    "34:holdhands"
+  ],
+  "labels": [
+    "custom",
+    "digitaldex"
+  ],
+  "pokedex": [
+    "cobblemon.species.agumon.desc1",
+    "cobblemon.species.agumon.desc2"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 120,
+  "evolutions": [
+    {
+    "id": "agumon-greymon-level_up",
+    "variant": "level_up",
+    "result": "greymon",
+    "consumeHeldItem": false,
+    "learnableMoves": ["flamethrower"],
+    "requirements": [
+      {
+        "variant": "level",
+        "minLevel": 36
+      }
+    ]
+  },
+  {
+    "id": "agumon-koromon-revive",
+    "variant": "item_interact",
+    "result": "koromon",
+    "consumeHeldItem": true,
+    "learnableMoves": [],
+    "requirements": [],
+    "requiredContext": "cobblemon:revive"
+  }
+]
+}

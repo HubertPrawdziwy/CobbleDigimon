@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:metalgreymon",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:metalgreymon",
+     "model": "cobblemon:metalgreymon.geo",
+     "texture": "cobblemon:textures/pokemon/4998_metalgreymon/metalgreymon.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/4998_metalgreymon/metalgreymon_shiny.png"
+   }
+ ]
+}

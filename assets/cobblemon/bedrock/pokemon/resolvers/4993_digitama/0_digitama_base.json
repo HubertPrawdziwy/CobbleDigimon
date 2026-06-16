@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:digitama",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:digitama",
+     "model": "cobblemon:digitama.geo",
+     "texture": "cobblemon:textures/pokemon/4993_digitama/digitama.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/4993_digitama/digitama_shiny.png"
+   }
+ ]
+}

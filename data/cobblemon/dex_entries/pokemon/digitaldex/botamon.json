@@ -1,0 +1,15 @@
+{
+    "id":"cobblemon:botamon",
+    "speciesId":"cobblemon:botamon",
+    "displayAspects":[],
+    "conditionAspects":[],
+    "forms":[
+        {
+            "displayForm":"Normal",
+            "unlockForms":[
+            "Normal"
+            ]
+        }
+        ],
+        "variations":[]
+}

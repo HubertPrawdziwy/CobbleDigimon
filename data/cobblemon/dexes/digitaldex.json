@@ -1,0 +1,26 @@
+{
+    "type": "cobblemon:simple_pokedex_def",
+    "id": "cobblemon:digitaldex",
+    "sortOrder": 50,
+    "entries": [
+    "cobblemon:digitama",
+    "cobblemon:botamon",
+    "cobblemon:koromon",
+    "cobblemon:agumon",
+    "cobblemon:greymon",
+    "cobblemon:metalgreymon",
+    "cobblemon:wargreymon",
+    "cobblemon:choromon",
+    "cobblemon:caprimon",
+    "cobblemon:hagurumon",
+    "cobblemon:guardromon",
+    "cobblemon:andromon",
+    "cobblemon:skullgreymon",
+    "cobblemon:punimon",
+    "cobblemon:tsunomon",
+    "cobblemon:gabumon",
+    "cobblemon:garurumon",
+    "cobblemon:weregarurumon",
+    "cobblemon:metalgarurumon"
+    ]
+}

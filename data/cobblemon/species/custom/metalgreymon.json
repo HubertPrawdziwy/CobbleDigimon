@@ -1,0 +1,182 @@
+{
+  "implemented": true,
+  "name": "metalgreymon",
+  "nationalPokedexNumber": 4998,
+  "primaryType": "fire",
+    "secondaryType": "steel",
+  "abilities": [
+    "blaze",
+    "h:sheerforce"
+  ],
+  "baseStats": {
+    "hp": 104,
+    "attack": 126,
+    "defence": 100,
+    "special_attack": 150,
+    "special_defence": 88,
+    "speed": 95
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": true
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 1
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 268,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 1,
+  "eggGroups": [
+    "dragon"
+  ],
+  "drops": {
+    "amount": 2,
+        "entries": [
+      {
+        "item": "minecraft:iron_ingot",
+        "quantityRange": "3-5",
+        "percentage": 40
+      },
+      {
+        "item": "minecraft:blaze_rod",
+        "quantityRange": "1-2",
+        "percentage": 25
+      }
+    ]
+  },
+  "moves": [
+    "1:bubble",
+    "3:scratch",
+    "5:bite",
+    "8:ember",
+    "16:flameburst",
+    "18:scaryface",
+    "21:slash",
+    "23:bulkup",
+    "24:firespin",
+    "27:machpunch",
+    "29:dynamickick",
+    "31:dragonrage",
+    "32:skyuppercut",
+    "34:holdhands",
+    "36:flamethrower",
+    "39:dragontail",
+    "41:dragonclaw",
+    "42:firefang",
+    "45:headsmash",
+    "47:hornattack",
+    "49:fireblast",
+    "50:megahorn",
+    "53:outrage",
+    "55:blastburn",
+    "58:bodyslam",
+    "61:magnetbomb",
+    "63:ironhead",
+    "66:flashcannon",
+    "68:crushclaw",
+    "70:shiftgear",
+    "75:lockon",
+    "79:selfdestruct",
+    "84:steelbeam"
+  ],
+  "labels": [
+    "custom",
+    "digitaldex"
+  ],
+  "pokedex": [
+    "cobblemon.species.metalgreymon.desc1",
+    "cobblemon.species.metalgreymon.desc2"
+  ],
+  "baseScale": 5,
+  "hitbox": {
+    "width": 1.3,
+    "height": 2.4,
+    "fixed": false
+  },
+  "riding": {
+    "behaviours": {
+      "AIR": {
+        "key": "cobblemon:air/bird",
+        "stats": {
+          "ACCELERATION": "35-80",
+          "JUMP": "30-65",
+          "SKILL": "45-85",
+          "SPEED": "30-80",
+          "STAMINA": "55-110"
+        }
+      },
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "55-65",
+          "JUMP": "15-25",
+          "SKILL": "10-25",
+          "SPEED": "25-60",
+          "STAMINA": "20-30"
+        }
+      }
+    },
+    "seats": [
+      {
+        "locator": "seat_1"
+      }
+    ]
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 145,
+  "weight": 9700,
+  "evolutions": [
+    {
+    "id": "metalgreymon-wargreymon-level_up",
+    "variant": "level_up",
+    "result": "wargreymon",
+    "consumeHeldItem": false,
+    "learnableMoves": ["meteormash"],
+    "requirements": [
+      {
+        "variant": "level",
+        "minLevel": 85
+      }
+    ]
+  },
+  {
+    "id": "metalgreymon-greymon-revive",
+    "variant": "item_interact",
+    "result": "greymon",
+    "consumeHeldItem": true,
+    "learnableMoves": [],
+    "requirements": [],
+    "requiredContext": "cobblemon:revive"
+  }
+]
+}

@@ -1,0 +1,233 @@
+{
+  "implemented": true,
+  "name": "greymon",
+  "nationalPokedexNumber": 4997,
+  "primaryType": "fire",
+    "secondaryType": "dragon",
+  "abilities": [
+    "blaze",
+    "h:sheerforce"
+  ],
+  "baseStats": {
+    "hp": 98,
+    "attack": 113,
+    "defence": 95,
+    "special_attack": 99,
+    "special_defence": 79,
+    "speed": 49
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": true
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 1
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 152,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 1,
+  "eggGroups": [
+    "dragon"
+  ],
+  "drops": {
+    "amount": 1,
+        "entries": [
+      {
+        "item": "minecraft:blaze_rod",
+        "quantityRange": "1-2",
+        "percentage": 30
+      }
+    ]
+  },
+  "moves": [
+    "1:bubble",
+    "3:scratch",
+    "5:bite",
+    "8:ember",
+    "16:flameburst",
+    "18:scaryface",
+    "21:slash",
+    "23:bulkup",
+    "24:firespin",
+    "27:machpunch",
+    "29:dynamickick",
+    "31:dragonrage",
+    "32:skyuppercut",
+    "34:holdhands",
+    "36:flamethrower",
+    "39:dragontail",
+    "41:dragonclaw",
+    "42:firefang",
+    "45:headsmash",
+    "47:hornattack",
+    "49:fireblast",
+    "50:megahorn",
+    "53:outrage"
+  ],
+  "labels": [
+    "custom",
+    "digitaldex"
+  ],
+  "pokedex": [
+    "cobblemon.species.greymon.desc1",
+    "cobblemon.species.greymon.desc2"
+  ],
+  "baseScale": 3,
+  "hitbox": {
+    "width": 1.5,
+    "height": 2.5,
+    "fixed": false
+  },
+   "riding": {
+  "behaviours": {
+    "LAND": {
+      "key": "cobblemon:land/horse",
+      "rideSounds": [],
+      "stats": {
+        "ACCELERATION": "45-65",
+        "JUMP": "25-40",
+        "SKILL": "35-55",
+        "SPEED": "15-25",
+        "STAMINA": "60-85"
+      }
+    }
+  },
+  "seats": [
+    {
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "poseOffsets": [
+        {
+          "offset": {
+            "x": 0.0,
+            "y": -0.8,
+            "z": 0.2
+          },
+          "poseTypes": [
+            "STAND"
+          ]
+        },
+        {
+          "offset": {
+            "x": 0.0,
+            "y": -0.8,
+            "z": 0.2
+          },
+          "poseTypes": [
+            "WALK"
+          ]
+        },
+        {
+          "offset": {
+            "x": 0.0,
+            "y": -0.8,
+            "z": 0.2
+          },
+          "poseTypes": [
+            "HOVER"
+          ]
+        },
+        {
+          "offset": {
+            "x": 0.0,
+            "y": -0.8,
+            "z": 0.2
+          },
+          "poseTypes": [
+            "FLY"
+          ]
+        },
+        {
+          "offset": {
+            "x": 0.0,
+            "y": -0.8,
+            "z": 0.2
+          },
+          "poseTypes": [
+            "FLOAT"
+          ]
+        },
+        {
+          "offset": {
+            "x": 0.0,
+            "y": -0.8,
+            "z": 0.2
+          },
+          "poseTypes": [
+            "SWIM"
+          ]
+        },
+        {
+          "offset": {
+            "x": 0.0,
+            "y": -0.8,
+            "z": 0.2
+          },
+          "poseTypes": [
+            "GLIDE"
+          ]
+        }
+      ]
+    }
+  ]
+},
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 47,
+  "weight": 4700,
+  "evolutions": [
+    {
+    "id": "greymon-metalgreymon-level_up",
+    "variant": "level_up",
+    "result": "metalgreymon",
+    "consumeHeldItem": false,
+    "learnableMoves": ["blastburn"],
+    "requirements": [
+      {
+        "variant": "level",
+        "minLevel": 55
+      }
+    ]
+  },
+  {
+    "id": "greymon-agumon-revive",
+    "variant": "item_interact",
+    "result": "agumon",
+    "consumeHeldItem": true,
+    "learnableMoves": [],
+    "requirements": [],
+    "requiredContext": "cobblemon:revive"
+  }
+]
+}

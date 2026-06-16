@@ -1,0 +1,13 @@
+
+    modLoader="javafml"
+    loaderVersion="[1,)"
+    license="MPL-2.0"
+    issueTrackerURL="https://github.com/HubertPrawdziwy/CobbleDigimon/issues"
+
+    [[mods]]
+    modId="cobbledigimon"
+    version="0.20.0"
+    displayName="CobbleDigimon"
+    credits="Thanks to Cobblemon for making a mod that inspired me to actually try something in my life, sending kisses muah muah"
+    authors="PrawdziwyHubcio"
+    description="Digimon in your cobblemon."

@@ -1,0 +1,15 @@
+{
+    "id":"cobblemon:wargreymon",
+    "speciesId":"cobblemon:wargreymon",
+    "displayAspects":[],
+    "conditionAspects":[],
+    "forms":[
+        {
+            "displayForm":"Normal",
+            "unlockForms":[
+            "Normal"
+            ]
+        }
+        ],
+        "variations":[]
+}

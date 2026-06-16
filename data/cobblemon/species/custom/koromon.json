@@ -1,0 +1,111 @@
+{
+  "implemented": true,
+  "name": "koromon",
+  "nationalPokedexNumber": 4995,
+  "primaryType": "fire",
+  "abilities": [
+    "gooey",
+    "h:stench"
+  ],
+  "baseStats": {
+    "hp": 34,
+    "attack": 43,
+    "defence": 37,
+    "special_attack": 20,
+    "special_defence": 24,
+    "speed": 28
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": true
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 1
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": -1,
+  "shoulderMountable": true,
+  "baseExperienceYield": 45,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 1,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": []
+  },
+  "moves": [
+    "1:bubble",
+    "3:pound",
+    "5:bite",
+    "8:ember"
+  ],
+  "labels": [
+    "custom",
+    "digitaldex"
+  ],
+  "pokedex": [
+    "cobblemon.species.koromon.desc1",
+    "cobblemon.species.koromon.desc2"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1,
+    "height": 0.5,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 30,
+  "evolutions": [
+    {
+    "id": "koromon-agumon-level_up",
+    "variant": "level_up",
+    "result": "agumon",
+    "consumeHeldItem": false,
+    "learnableMoves": ["flameburst"],
+    "requirements": [
+      {
+        "variant": "level",
+        "minLevel": 16
+      }
+    ]
+  },
+  {
+    "id": "koromon-botamon-revive",
+    "variant": "item_interact",
+    "result": "botamon",
+    "consumeHeldItem": true,
+    "learnableMoves": [],
+    "requirements": [],
+    "requiredContext": "cobblemon:revive"
+  }
+]
+}

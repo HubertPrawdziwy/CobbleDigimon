@@ -1,0 +1,110 @@
+{
+  "implemented": true,
+  "name": "tsunomon",
+  "nationalPokedexNumber": 5008,
+  "primaryType": "ice",
+  "abilities": [
+    "vitalspirit",
+    "h:rattled"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 30,
+    "defence": 32,
+    "special_attack": 35,
+    "special_defence": 27,
+    "speed": 35
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": true
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 1
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": -1,
+  "shoulderMountable": true,
+  "baseExperienceYield": 45,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 1,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": []
+  },
+  "moves": [
+    "1:bubble",
+    "5:tackle",
+    "8:powdersnow"
+  ],
+  "labels": [
+    "custom",
+    "digitaldex"
+  ],
+  "pokedex": [
+    "cobblemon.species.tsunomon.desc1",
+    "cobblemon.species.tsunomon.desc2"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1,
+    "height": 0.5,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 30,
+  "evolutions": [
+    {
+    "id": "tsunomon-gabumon-level_up",
+    "variant": "level_up",
+    "result": "gabumon",
+    "consumeHeldItem": false,
+    "learnableMoves": ["aurorabeam"],
+    "requirements": [
+      {
+        "variant": "level",
+        "minLevel": 16
+      }
+    ]
+  },
+  {
+    "id": "tsunomon-punimon-revive",
+    "variant": "item_interact",
+    "result": "punimon",
+    "consumeHeldItem": true,
+    "learnableMoves": [],
+    "requirements": [],
+    "requiredContext": "cobblemon:revive"
+  }
+]
+}

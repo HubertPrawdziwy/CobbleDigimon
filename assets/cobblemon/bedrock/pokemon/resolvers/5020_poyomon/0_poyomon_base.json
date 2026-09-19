@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:poyomon",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:poyomon",
+     "model": "cobblemon:poyomon.geo",
+     "texture": "cobblemon:textures/pokemon/5020_poyomon/poyomon.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/5020_poyomon/poyomon_shiny.png"
+   }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "rootBone": "patamon",
+ "portraitScale": 2,
+ "portraitTranslation": [ 0, -1.3, 0 ],
+ "profileScale": 2,
+ "profileTranslation": [ 0, -1.3, 0 ],
+ "animations": {
+   "faint": "q.bedrock_primary('patamon', 'faint', q.curve('one'))",
+   "physical": "q.bedrock_primary('patamon', 'physical', q.curve('symmetrical_wide'))",
+   "special": "q.bedrock_primary('patamon', 'special', q.curve('symmetrical_wide'))",
+   "cry": "q.bedrock_stateful('patamon', 'cry')",
+   "recoil": "q.bedrock_stateful('patamon', 'recoil')"
+   },
+ "poses": {
+  "battle_standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('patamon', 'battle_idle')"
+      ]
+  },
+   "standing": {
+     "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+     "isBattle": false,
+     "animations": [
+       "q.look('head_ai', 1, 1, 70, -45, 45, -45)",
+       "q.bedrock('patamon', 'ground_idle')"
+     ]
+   },
+   "walking": {
+     "poseTypes": [ "WALK" ],
+     "animations": [
+     "q.bedrock('patamon', 'ground_walk')"
+     ]
+   },
+    "shoulder_left": {
+      "poseTypes": ["SHOULDER_LEFT"],
+      "animations": [
+        "q.bedrock('patamon', 'shoulder_left')"
+      ],
+      "transformedParts": [
+        {
+          "part": "body_middle",
+          "position": [0, 10, 8]
+        }
+      ]
+
+    },
+    "shoulder_right": {
+      "poseTypes": ["SHOULDER_RIGHT"],
+      "animations": [
+        "q.bedrock('patamon', 'shoulder_right')"
+      ],
+      "transformedParts": [
+        {
+          "part": "body_middle",
+          "position": [0, 10, 8]
+        }
+      ],
+      "hover": {
+      "poseTypes": ["HOVER"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('patamon', 'air_idle')"
+      ]
+    },
+    "fly": {
+      "poseTypes": ["FLY"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('patamon', 'air_fly')"
+      ]
+    }
+    }
+ }
+}

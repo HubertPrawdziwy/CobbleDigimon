@@ -1,0 +1,115 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.poyomon.ground_idle": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [0, "-math.sin(q.anim_time*90*3/5)/2", "math.sin(q.anim_time*90*3/5)/2"],
+					"position": [0, "1+math.sin(q.anim_time*90*3/5)/2", 0]
+				}
+			}
+		},
+		"animation.poyomon.ground_walk": {
+			"loop": true,
+			"animation_length": 11.4167,
+			"bones": {
+				"body": {
+					"rotation": [12.5, "-math.sin(q.anim_time*90*3/5)/2", "math.sin(q.anim_time*90*3/5)/2"],
+					"position": [0, "1.5+math.sin(q.anim_time*90*3/5)/2", "-math.sin(q.anim_time*90*3/5)/2"]
+				}
+			}
+		},
+		"animation.poyomon.faint": {
+			"animation_length": 1.5,
+			"bones": {
+				"body": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.9583": [0, 0, 0],
+						"1.2917": [-102.5, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.7917": [0, 0, 10],
+						"1.0": [0, 0, 10]
+					}
+				},
+				"mouth_smile": {
+					"position": [0, 0, 1]
+				},
+				"eyes_normal": {
+					"position": [0, 0, 1]
+				},
+				"eyes_cry": {
+					"position": [0, 0, -1]
+				},
+				"mouth_sad": {
+					"position": [0, 0, -0.9]
+				}
+			}
+		},
+		"animation.poyomon.cry": {
+			"animation_length": 1.0417,
+			"bones": {
+				"body": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5417": [-12.5, 0, 0],
+						"0.9583": [0, 0, 0]
+					},
+					"position": [0, 1, 0]
+				}
+			}
+		},
+		"animation.poyomon.recoil": {
+			"animation_length": 1.25,
+			"bones": {
+				"body": {
+					"rotation": {
+						"0.625": [0, 0, 0],
+						"0.75": [0, 22.5, 0],
+						"1.0": [0, -20, 0],
+						"1.25": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 1, 0],
+						"0.75": [0, 1, 2],
+						"1.125": [0, 1, 2],
+						"1.25": [0, 1, 0]
+					}
+				},
+				"mouth_smile": {
+					"position": [0, 0, 1]
+				},
+				"eyes_normal": {
+					"position": [0, 0, 1]
+				},
+				"eyes_cry": {
+					"position": [0, 0, -1]
+				},
+				"mouth_sad": {
+					"position": [0, 0, -1]
+				}
+			}
+		},
+		"animation.poyomon.shoulder_right": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [0, 0, -2.5],
+					"position": [0, 0, 0]
+				}
+			}
+		},
+		"animation.poyomon.shoulder_left": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [0, 0, 2.5],
+					"position": [0, 0, 0]
+				}
+			}
+		}
+	}
+}

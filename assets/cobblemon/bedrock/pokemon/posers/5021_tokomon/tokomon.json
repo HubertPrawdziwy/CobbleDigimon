@@ -1,0 +1,48 @@
+{
+  "rootBone": "tokomon",
+  "portraitScale": 2,
+  "portraitTranslation": [0, -1.3, 0],
+  "profileScale": 2,
+  "profileTranslation": [0, -1.3, 0],
+  "animations": {
+    "faint": "q.bedrock_primary('tokomon', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('tokomon', 'cry')",
+    "recoil": "q.bedrock_stateful('tokomon', 'recoil')",
+    "physical": "q.bedrock_primary('tokomon', 'physical', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle_standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('tokomon', 'battle_idle')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('body')",
+        "q.bedrock('tokomon', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.bedrock('tokomon', 'ground_walk')"
+      ]
+    },
+    "shoulder_left": {
+      "poseTypes": ["SHOULDER_LEFT"],
+      "animations": [
+        "q.bedrock('tokomon', 'shoulder_left')"
+      ]
+    },
+    "shoulder_right": {
+      "poseTypes": ["SHOULDER_RIGHT"],
+      "animations": [
+        "q.bedrock('tokomon', 'shoulder_right')"
+      ]
+    }
+  }
+}

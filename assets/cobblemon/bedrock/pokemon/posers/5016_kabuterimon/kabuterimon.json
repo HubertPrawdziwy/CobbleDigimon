@@ -1,0 +1,62 @@
+{
+ "rootBone": "kabuterimon",
+ "portraitScale": 1,
+ "portraitTranslation": [ 0, 1.2, 0 ],
+ "profileScale": 0.7,
+ "profileTranslation": [ 0, 0.9, 0 ],
+ "firstPersonCameraOffset": {
+    "seat_1": [0, 0.45, 0]
+  },
+  "thirdPersonCameraOffset": {
+    "seat_1": [0, 1, 2.5],
+    "seat_1_reverse": [0, 1, 2.5]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_1": [0, 1, 1],
+    "seat_1_reverse": [0, 1, 0]
+  },
+ "animations": {
+   "faint": "q.bedrock_primary('kabuterimon', 'faint', q.curve('one'))",
+   "physical": "q.bedrock_primary('kabuterimon', 'physical', q.curve('symmetrical_wide'))",
+   "special": "q.bedrock_primary('kabuterimon', 'special', q.curve('symmetrical_wide'))",
+   "cry": "q.bedrock_stateful('kabuterimon', 'cry')",
+   "recoil": "q.bedrock_stateful('kabuterimon', 'recoil')"
+   },
+ "poses": {
+  "battle_standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('kabuterimon', 'battle_idle')"
+      ]
+  },
+   "standing": {
+     "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+     "isBattle": false,
+     "animations": [
+       "q.look('head_ai', 1, 1, 70, -45, 45, -45)",
+       "q.bedrock('kabuterimon', 'ground_idle')"
+     ]
+   },
+   "walking": {
+     "poseTypes": [ "WALK" ],
+     "animations": [
+     "q.bedrock('kabuterimon', 'ground_walk')"
+     ]
+   },
+    "hover": {
+      "poseTypes": ["HOVER"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('kabuterimon', 'air_idle')"
+      ]
+    },
+    "fly": {
+      "poseTypes": ["FLY"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('kabuterimon', 'air_fly')"
+      ]
+    }
+ }
+}

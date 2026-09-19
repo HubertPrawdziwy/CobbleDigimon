@@ -1,9 +1,9 @@
 {
  "rootBone": "metalgarurumon",
- "portraitScale": 1,
- "portraitTranslation": [ 0, 1.8, 0 ],
- "profileScale": 0.6,
- "profileTranslation": [ 0, 1.0, 0 ],
+ "portraitScale": 2,
+ "portraitTranslation": [ -0.6, -0.3, 0 ],
+ "profileScale": 1.5,
+ "profileTranslation": [ -0.3, -0.3, -0.6 ],
  "firstPersonCameraOffset": {
     "seat_1": [0, 0.45, 0]
   },

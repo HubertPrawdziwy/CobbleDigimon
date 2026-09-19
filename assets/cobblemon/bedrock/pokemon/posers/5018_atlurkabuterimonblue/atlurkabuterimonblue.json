@@ -1,0 +1,48 @@
+{
+ "rootBone": "atlurkabuterimonblue",
+ "portraitScale": 1,
+ "portraitTranslation": [ -0.3, 1, 0 ],
+ "profileScale": 0.8,
+ "profileTranslation": [ 0, 0.8, 0 ],
+ "firstPersonCameraOffset": {
+    "seat_1": [0, 0.45, 0]
+  },
+  "thirdPersonCameraOffset": {
+    "seat_1": [0, 1, 2.5],
+    "seat_1_reverse": [0, 1, 2.5]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_1": [0, 1, 1],
+    "seat_1_reverse": [0, 1, 0]
+  },
+ "animations": {
+   "faint": "q.bedrock_primary('atlurkabuterimonblue', 'faint', q.curve('one'))",
+   "physical": "q.bedrock_primary('atlurkabuterimonblue', 'physical', q.curve('symmetrical_wide'))",
+   "special": "q.bedrock_primary('atlurkabuterimonblue', 'special', q.curve('symmetrical_wide'))",
+   "cry": "q.bedrock_stateful('atlurkabuterimonblue', 'cry')",
+   "recoil": "q.bedrock_stateful('atlurkabuterimonblue', 'recoil')"
+   },
+ "poses": {
+  "battle_standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('atlurkabuterimonblue', 'battle_idle')"
+      ]
+  },
+   "standing": {
+     "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+     "isBattle": false,
+     "animations": [
+       "q.look('head_ai', 1, 1, 70, -45, 45, -45)",
+       "q.bedrock('atlurkabuterimonblue', 'ground_idle')"
+     ]
+   },
+   "walking": {
+     "poseTypes": [ "WALK" ],
+     "animations": [
+     "q.bedrock('atlurkabuterimonblue', 'ground_walk')"
+     ]
+   }
+ }
+}

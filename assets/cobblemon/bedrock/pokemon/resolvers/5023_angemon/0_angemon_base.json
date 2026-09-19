@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:angemon",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:angemon",
+     "model": "cobblemon:angemon.geo",
+     "texture": "cobblemon:textures/pokemon/5023_angemon/angemon.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/5023_angemon/angemon_shiny.png"
+   }
+ ]
+}

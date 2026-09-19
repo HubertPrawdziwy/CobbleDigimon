@@ -1,0 +1,15 @@
+{
+    "id":"cobblemon:atlurkabuterimonblue",
+    "speciesId":"cobblemon:atlurkabuterimonblue",
+    "displayAspects":[],
+    "conditionAspects":[],
+    "forms":[
+        {
+            "displayForm":"Normal",
+            "unlockForms":[
+            "Normal"
+            ]
+        }
+        ],
+        "variations":[]
+}

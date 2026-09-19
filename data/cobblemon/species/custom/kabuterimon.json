@@ -1,0 +1,197 @@
+{
+  "implemented": true,
+  "name": "kabuterimon",
+  "nationalPokedexNumber": 5016,
+  "primaryType": "bug",
+    "secondaryType": "electric",
+  "abilities": [
+    "swarm",
+    "h:berserk"
+  ],
+  "baseStats": {
+    "hp": 86,
+    "attack": 107,
+    "defence": 85,
+    "special_attack": 110,
+    "special_defence": 95,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": true
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 1
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 152,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 1,
+  "eggGroups": [
+    "bug"
+  ],
+  "drops": {
+    "amount": 1,
+        "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "1-2",
+        "percentage": 30
+      }
+    ]
+  },
+  "moves": [
+    "1:bubble",
+    "3:defensecurl",
+    "6:bide",
+    "8:stockpile",
+    "8:swallow",
+    "16:electroweb",
+    "18:furycutter",
+    "21:screech",
+    "23:strugglebug",
+    "24:thunderwave",
+    "27:charge",
+    "29:stringshot",
+    "31:silverwind",
+    "32:megahorn",
+    "32:thunderbolt",
+    "34:acupressure",
+    "36:foresight",
+    "39:bugbuzz",
+    "42:signalbeam",
+    "44:electroball",
+    "45:agility",
+    "tm:protect",
+    "tm:return",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:rest",
+    "tm:secretpower",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:substitute",
+    "tm:toxic",
+    "tm:endure",
+    "tm:facade",
+    "tm:curse",
+    "tm:swagger",
+    "tm:doubleteam"
+
+  ],
+  "labels": [
+    "custom",
+    "digitaldex"
+  ],
+  "pokedex": [
+    "cobblemon.species.kabuterimon.desc1",
+    "cobblemon.species.kabuterimon.desc2"
+  ],
+  "baseScale": 3.2,
+  "hitbox": {
+    "width": 1,
+    "height": 2,
+    "fixed": false
+  },
+   "riding": {
+    "behaviours": {
+      "AIR": {
+        "key": "cobblemon:air/bird",
+        "stats": {
+          "ACCELERATION": "55-80",
+          "JUMP": "40-75",
+          "SKILL": "85-125",
+          "SPEED": "40-90",
+          "STAMINA": "75-170"
+        }
+      },
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "45-85",
+          "JUMP": "15-45",
+          "SKILL": "10-45",
+          "SPEED": "25-85",
+          "STAMINA": "40-90"
+        }
+      }
+    },
+    "seats": [
+      {
+        "locator": "seat_1"
+      }
+    ]
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 55,
+  "weight": 550,
+  "evolutions": [
+    {
+    "id": "kabuterimon-atlurkabuterimonred-level_up",
+    "variant": "level_up",
+    "result": "atlurkabuterimonred",
+    "consumeHeldItem": false,
+    "learnableMoves": ["electroshot"],
+    "requirements": [
+     {
+          "variant": "use_move",
+          "move": "thunderbolt",
+          "amount": 20
+        }
+    ]
+  },
+  {
+    "id": "kabuterimon-atlurkabuterimonblue-level_up",
+    "variant": "level_up",
+    "result": "atlurkabuterimonblue",
+    "consumeHeldItem": false,
+    "learnableMoves": ["gigaimpact"],
+    "requirements": [
+        {
+          "variant": "use_move",
+          "move": "megahorn",
+          "amount": 20
+        }
+        
+    ]
+  },
+  {
+    "id": "kabuterimon-tentomon-revive",
+    "variant": "item_interact",
+    "result": "tentomon",
+    "consumeHeldItem": true,
+    "learnableMoves": [],
+    "requirements": [],
+    "requiredContext": "cobblemon:revive"
+  }
+]
+}

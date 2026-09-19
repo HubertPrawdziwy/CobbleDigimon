@@ -1,20 +1,20 @@
 {
   "implemented": true,
-  "name": "metalgreymon",
-  "nationalPokedexNumber": 4998,
-  "primaryType": "fire",
-    "secondaryType": "steel",
+  "name": "holyangemon",
+  "nationalPokedexNumber": 5024,
+  "primaryType": "fairy",
+    "secondaryType": "flying",
   "abilities": [
-    "blaze",
-    "h:sheerforce"
+    "justified",
+    "h:serenegrace"
   ],
   "baseStats": {
-    "hp": 104,
-    "attack": 126,
-    "defence": 100,
-    "special_attack": 150,
-    "special_defence": 88,
-    "speed": 95
+    "hp": 91,
+    "attack": 131,
+    "defence": 110,
+    "special_attack": 118,
+    "special_defence": 110,
+    "speed": 105
   },
   "behaviour": {
     "resting": {
@@ -36,7 +36,7 @@
       },
       "fly": {
         "canFly": true,
-        "flySpeedHorizontal": 0.3
+        "flySpeedHorizontal": 0.1
       },
       "wanderChance": 1
     }
@@ -44,61 +44,60 @@
   "catchRate": 255,
   "maleRatio": -1,
   "shoulderMountable": false,
-  "baseExperienceYield": 268,
+  "baseExperienceYield": 66,
   "experienceGroup": "medium_slow",
   "eggCycles": 1,
   "eggGroups": [
-    "dragon"
+    "field"
   ],
   "drops": {
-    "amount": 2,
+    "amount": 1,
         "entries": [
       {
-        "item": "minecraft:iron_ingot",
-        "quantityRange": "3-5",
-        "percentage": 40
-      },
-      {
-        "item": "minecraft:blaze_rod",
+        "item": "minecraft:feather",
         "quantityRange": "1-2",
-        "percentage": 25
+        "percentage": 30
       }
     ]
   },
   "moves": [
     "1:bubble",
-    "3:scratch",
+    "3:pound",
     "5:bite",
-    "8:ember",
-    "16:flameburst",
-    "18:scaryface",
-    "21:slash",
-    "23:bulkup",
-    "24:firespin",
-    "27:machpunch",
-    "29:megakick",
-    "31:dragonrage",
-    "32:skyuppercut",
-    "34:holdhands",
-    "36:flamethrower",
-    "39:dragontail",
-    "41:dragonclaw",
-    "42:firefang",
-    "45:headsmash",
-    "47:hornattack",
-    "49:fireblast",
-    "50:megahorn",
-    "53:outrage",
-    "55:blastburn",
-    "58:bodyslam",
-    "61:magnetbomb",
-    "63:ironhead",
-    "66:flashcannon",
-    "68:crushclaw",
-    "70:shiftgear",
-    "75:lockon",
-    "79:selfdestruct",
-    "84:steelbeam",
+    "8:leer",
+    "16:aircutter",
+    "18:defog",
+    "21:rapidspin",
+    "23:mirrormove",
+    "24:echoedvoice",
+    "27:headbutt",
+    "29:swift",
+    "31:fairywind",
+    "32:confusion",
+    "33:spiritbreak",
+    "34:calmmind",
+    "36:followme",
+    "38:tailglow",
+    "41:moonblast",
+    "44:morningsun",
+    "46:tailwind",
+    "49:revivalblessing",
+    "51:dualwingbeat",
+    "53:aurasphere",
+    "55:triattack",
+    "57:futuresight",
+    "59:thunderpunch",
+    "60:psyblade",
+    "62:protect",
+    "64:sacredsword",
+    "66:wideguard",
+    "69:psyshieldbash",
+    "72:flowershield",
+    "75:swordsdance",
+    "77:healbell",
+    "80:steelwing",
+    "82:mistball",
+    "86:freezingglare",
     "tm:protect",
     "tm:return",
     "tm:frustration",
@@ -114,19 +113,21 @@
     "tm:curse",
     "tm:swagger",
     "tm:doubleteam"
+
+
   ],
   "labels": [
     "custom",
     "digitaldex"
   ],
   "pokedex": [
-    "cobblemon.species.metalgreymon.desc1",
-    "cobblemon.species.metalgreymon.desc2"
+    "cobblemon.species.holyangemon.desc1",
+    "cobblemon.species.holyangemon.desc2"
   ],
-  "baseScale": 5,
+  "baseScale": 2,
   "hitbox": {
-    "width": 1.3,
-    "height": 2.4,
+    "width": 0.8,
+    "height": 2.5,
     "fixed": false
   },
   "riding": {
@@ -134,22 +135,22 @@
       "AIR": {
         "key": "cobblemon:air/bird",
         "stats": {
-          "ACCELERATION": "35-80",
-          "JUMP": "30-65",
-          "SKILL": "45-85",
-          "SPEED": "30-80",
-          "STAMINA": "55-110"
+          "ACCELERATION": "85-120",
+          "JUMP": "80-115",
+          "SKILL": "95-135",
+          "SPEED": "80-125",
+          "STAMINA": "90-195"
         }
       },
       "LAND": {
         "key": "cobblemon:land/horse",
         "rideSounds": [],
         "stats": {
-          "ACCELERATION": "55-65",
-          "JUMP": "15-25",
-          "SKILL": "10-25",
-          "SPEED": "25-60",
-          "STAMINA": "20-30"
+          "ACCELERATION": "25-55",
+          "JUMP": "25-55",
+          "SKILL": "10-45",
+          "SPEED": "15-45",
+          "STAMINA": "70-130"
         }
       }
     },
@@ -164,30 +165,30 @@
     "hp": 0,
     "attack": 0,
     "defence": 0,
-    "special_attack": 3,
-    "special_defence": 0,
+    "special_attack": 2,
+    "special_defence": 1,
     "speed": 0
   },
-  "height": 145,
-  "weight": 9700,
+  "height": 34,
+  "weight": 800,
   "evolutions": [
     {
-    "id": "metalgreymon-wargreymon-level_up",
+    "id": "holyangemon-seraphimon-level_up",
     "variant": "level_up",
-    "result": "wargreymon",
+    "result": "seraphimon",
     "consumeHeldItem": false,
-    "learnableMoves": ["meteormash"],
+    "learnableMoves": ["lightofruin"],
     "requirements": [
       {
         "variant": "level",
-        "minLevel": 85
+        "minLevel": 88
       }
     ]
   },
   {
-    "id": "metalgreymon-greymon-revive",
+    "id": "holyangemon-angemon-revive",
     "variant": "item_interact",
-    "result": "greymon",
+    "result": "angemon",
     "consumeHeldItem": true,
     "learnableMoves": [],
     "requirements": [],

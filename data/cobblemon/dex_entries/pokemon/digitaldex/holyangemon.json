@@ -1,0 +1,15 @@
+{
+    "id":"cobblemon:holyangemon",
+    "speciesId":"cobblemon:holyangemon",
+    "displayAspects":[],
+    "conditionAspects":[],
+    "forms":[
+        {
+            "displayForm":"Normal",
+            "unlockForms":[
+            "Normal"
+            ]
+        }
+        ],
+        "variations":[]
+}

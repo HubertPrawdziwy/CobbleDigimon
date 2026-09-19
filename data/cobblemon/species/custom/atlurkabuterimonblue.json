@@ -1,0 +1,179 @@
+{
+  "implemented": true,
+  "name": "atlurkabuterimonblue",
+  "nationalPokedexNumber": 5018,
+  "primaryType": "bug",
+    "secondaryType": "electric",
+  "abilities": [
+    "noguard",
+    "h:moxie"
+  ],
+  "baseStats": {
+    "hp": 125,
+    "attack": 160,
+    "defence": 125,
+    "special_attack": 60,
+    "special_defence": 125,
+    "speed": 45
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": true
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 1
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 152,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 1,
+  "eggGroups": [
+    "bug"
+  ],
+  "drops": {
+    "amount": 1,
+        "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "1-2",
+        "percentage": 30
+      }
+    ]
+  },
+  "moves": [
+    "1:bubble",
+    "3:defensecurl",
+    "6:bide",
+    "8:stockpile",
+    "8:swallow",
+    "16:electroweb",
+    "18:furycutter",
+    "21:screech",
+    "23:strugglebug",
+    "24:thunderwave",
+    "27:charge",
+    "29:stringshot",
+    "31:silverwind",
+    "32:megahorn",
+    "32:thunderbolt",
+    "34:acupressure",
+    "36:foresight",
+    "39:bugbuzz",
+    "42:signalbeam",
+    "44:electroball",
+    "45:agility",
+    "47:nobleroar",
+    "50:photongeyser",
+    "52:bulkup",
+    "55:circlethrow",
+    "59:dragonrush",
+    "62:headsmash",
+    "65:bellydrum",
+    "68:smartstrike",
+    "71:stoneedge",
+    "tm:protect",
+    "tm:return",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:rest",
+    "tm:secretpower",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:substitute",
+    "tm:toxic",
+    "tm:endure",
+    "tm:facade",
+    "tm:curse",
+    "tm:swagger",
+    "tm:doubleteam"
+  ],
+  "labels": [
+    "custom",
+    "digitaldex"
+  ],
+  "pokedex": [
+    "cobblemon.species.atlurkabuterimonblue.desc1",
+    "cobblemon.species.atlurkabuterimonblue.desc2"
+  ],
+  "baseScale": 4,
+  "hitbox": {
+    "width": 1,
+    "height": 2,
+    "fixed": false
+  },
+   "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "45-85",
+          "JUMP": "15-45",
+          "SKILL": "10-45",
+          "SPEED": "25-85",
+          "STAMINA": "40-90"
+        }
+      }
+    },
+    "seats": [
+      {
+        "locator": "seat_1"
+      }
+    ]
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 140,
+  "weight": 1400,
+  "evolutions": [
+  {
+    "id": "atlurkabuterimonblue-heraklekabuterimon-level_up",
+    "variant": "level_up",
+    "result": "heraklekabuterimon",
+    "consumeHeldItem": false,
+    "learnableMoves": ["dragonenergy"],
+    "requirements": [
+      {
+        "variant": "level",
+        "minLevel": 76
+      }
+    ]
+  },
+  {
+    "id": "atlurkabuterimonblue-kabuterimon-revive",
+    "variant": "item_interact",
+    "result": "kabuterimon",
+    "consumeHeldItem": true,
+    "learnableMoves": [],
+    "requirements": [],
+    "requiredContext": "cobblemon:revive"
+  }
+]
+}

@@ -1,20 +1,20 @@
 {
   "implemented": true,
-  "name": "metalgreymon",
-  "nationalPokedexNumber": 4998,
-  "primaryType": "fire",
-    "secondaryType": "steel",
+  "name": "atlurkabuterimonred",
+  "nationalPokedexNumber": 5017,
+  "primaryType": "bug",
+    "secondaryType": "electric",
   "abilities": [
-    "blaze",
-    "h:sheerforce"
+    "levitate",
+    "h:berserk"
   ],
   "baseStats": {
-    "hp": 104,
-    "attack": 126,
-    "defence": 100,
-    "special_attack": 150,
-    "special_defence": 88,
-    "speed": 95
+    "hp": 110,
+    "attack": 60,
+    "defence": 105,
+    "special_attack": 140,
+    "special_defence": 115,
+    "speed": 110
   },
   "behaviour": {
     "resting": {
@@ -44,61 +44,53 @@
   "catchRate": 255,
   "maleRatio": -1,
   "shoulderMountable": false,
-  "baseExperienceYield": 268,
+  "baseExperienceYield": 152,
   "experienceGroup": "medium_slow",
   "eggCycles": 1,
   "eggGroups": [
-    "dragon"
+    "bug"
   ],
   "drops": {
-    "amount": 2,
+    "amount": 1,
         "entries": [
       {
-        "item": "minecraft:iron_ingot",
-        "quantityRange": "3-5",
-        "percentage": 40
-      },
-      {
-        "item": "minecraft:blaze_rod",
+        "item": "minecraft:string",
         "quantityRange": "1-2",
-        "percentage": 25
+        "percentage": 30
       }
     ]
   },
   "moves": [
     "1:bubble",
-    "3:scratch",
-    "5:bite",
-    "8:ember",
-    "16:flameburst",
-    "18:scaryface",
-    "21:slash",
-    "23:bulkup",
-    "24:firespin",
-    "27:machpunch",
-    "29:megakick",
-    "31:dragonrage",
-    "32:skyuppercut",
-    "34:holdhands",
-    "36:flamethrower",
-    "39:dragontail",
-    "41:dragonclaw",
-    "42:firefang",
-    "45:headsmash",
-    "47:hornattack",
-    "49:fireblast",
-    "50:megahorn",
-    "53:outrage",
-    "55:blastburn",
-    "58:bodyslam",
-    "61:magnetbomb",
-    "63:ironhead",
-    "66:flashcannon",
-    "68:crushclaw",
-    "70:shiftgear",
-    "75:lockon",
-    "79:selfdestruct",
-    "84:steelbeam",
+    "3:defensecurl",
+    "6:bide",
+    "8:stockpile",
+    "8:swallow",
+    "16:electroweb",
+    "18:furycutter",
+    "21:screech",
+    "23:strugglebug",
+    "24:thunderwave",
+    "27:charge",
+    "29:stringshot",
+    "31:silverwind",
+    "32:megahorn",
+    "32:thunderbolt",
+    "34:acupressure",
+    "36:foresight",
+    "39:bugbuzz",
+    "42:signalbeam",
+    "44:electroball",
+    "45:agility",
+    "47:nobleroar",
+    "50:photongeyser",
+    "52:energyball",
+    "55:snarl",
+    "59:volttackle",
+    "62:quiverdance",
+    "65:lockon",
+    "68:zapcannon",
+    "71:endure",
     "tm:protect",
     "tm:return",
     "tm:frustration",
@@ -120,36 +112,36 @@
     "digitaldex"
   ],
   "pokedex": [
-    "cobblemon.species.metalgreymon.desc1",
-    "cobblemon.species.metalgreymon.desc2"
+    "cobblemon.species.atlurkabuterimonred.desc1",
+    "cobblemon.species.atlurkabuterimonred.desc2"
   ],
-  "baseScale": 5,
+  "baseScale": 4,
   "hitbox": {
-    "width": 1.3,
-    "height": 2.4,
+    "width": 1,
+    "height": 2,
     "fixed": false
   },
-  "riding": {
+   "riding": {
     "behaviours": {
       "AIR": {
         "key": "cobblemon:air/bird",
         "stats": {
-          "ACCELERATION": "35-80",
-          "JUMP": "30-65",
-          "SKILL": "45-85",
-          "SPEED": "30-80",
-          "STAMINA": "55-110"
+          "ACCELERATION": "75-120",
+          "JUMP": "60-95",
+          "SKILL": "85-125",
+          "SPEED": "60-110",
+          "STAMINA": "95-190"
         }
       },
       "LAND": {
         "key": "cobblemon:land/horse",
         "rideSounds": [],
         "stats": {
-          "ACCELERATION": "55-65",
-          "JUMP": "15-25",
-          "SKILL": "10-25",
-          "SPEED": "25-60",
-          "STAMINA": "20-30"
+          "ACCELERATION": "45-85",
+          "JUMP": "15-45",
+          "SKILL": "10-45",
+          "SPEED": "25-85",
+          "STAMINA": "40-90"
         }
       }
     },
@@ -164,30 +156,31 @@
     "hp": 0,
     "attack": 0,
     "defence": 0,
-    "special_attack": 3,
+    "special_attack": 2,
     "special_defence": 0,
-    "speed": 0
+    "speed": 1
   },
-  "height": 145,
-  "weight": 9700,
+  "height": 140,
+  "weight": 1400,
   "evolutions": [
     {
-    "id": "metalgreymon-wargreymon-level_up",
+    "id": "atlurkabuterimonred-heraklekabuterimon-level_up",
     "variant": "level_up",
-    "result": "wargreymon",
+    "result": "heraklekabuterimon",
     "consumeHeldItem": false,
-    "learnableMoves": ["meteormash"],
+    "learnableMoves": ["dragonenergy"],
     "requirements": [
       {
         "variant": "level",
-        "minLevel": 85
+        "minLevel": 76
       }
+      
     ]
   },
   {
-    "id": "metalgreymon-greymon-revive",
+    "id": "atlurkabuterimonred-kabuterimon-revive",
     "variant": "item_interact",
-    "result": "greymon",
+    "result": "kabuterimon",
     "consumeHeldItem": true,
     "learnableMoves": [],
     "requirements": [],

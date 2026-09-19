@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:patamon",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:patamon",
+     "model": "cobblemon:patamon.geo",
+     "texture": "cobblemon:textures/pokemon/5022_patamon/patamon.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/5022_patamon/patamon_shiny.png"
+   }
+ ]
+}

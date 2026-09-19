@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:heraklekabuterimon",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:heraklekabuterimon",
+     "model": "cobblemon:heraklekabuterimon.geo",
+     "texture": "cobblemon:textures/pokemon/5019_heraklekabuterimon/heraklekabuterimon.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/5019_heraklekabuterimon/heraklekabuterimon_shiny.png"
+   }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:tentomon",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:tentomon",
+     "model": "cobblemon:tentomon.geo",
+     "texture": "cobblemon:textures/pokemon/5015_tentomon/tentomon.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/5015_tentomon/tentomon_shiny.png"
+   }
+ ]
+}

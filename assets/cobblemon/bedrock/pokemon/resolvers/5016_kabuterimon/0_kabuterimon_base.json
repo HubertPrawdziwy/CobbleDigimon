@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:kabuterimon",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:kabuterimon",
+     "model": "cobblemon:kabuterimon.geo",
+     "texture": "cobblemon:textures/pokemon/5016_kabuterimon/kabuterimon.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/5016_kabuterimon/kabuterimon_shiny.png"
+   }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:choromon",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:choromon",
+     "model": "cobblemon:choromon.geo",
+     "texture": "cobblemon:textures/pokemon/5000_choromon/choromon.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/5000_choromon/choromon_shiny.png"
+   }
+ ]
+}

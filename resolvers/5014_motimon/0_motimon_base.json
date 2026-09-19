@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:motimon",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:motimon",
+     "model": "cobblemon:motimon.geo",
+     "texture": "cobblemon:textures/pokemon/5014_motimon/motimon.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/5014_motimon/motimon_shiny.png"
+   }
+ ]
+}

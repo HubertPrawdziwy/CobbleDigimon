@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:metalgarurumon",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:metalgarurumon",
+     "model": "cobblemon:metalgarurumon.geo",
+     "texture": "cobblemon:textures/pokemon/5012_metalgarurumon/metalgarurumon.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/5012_metalgarurumon/metalgarurumon_shiny.png"
+   }
+ ]
+}

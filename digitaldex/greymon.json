@@ -1,0 +1,15 @@
+{
+    "id":"cobblemon:greymon",
+    "speciesId":"cobblemon:greymon",
+    "displayAspects":[],
+    "conditionAspects":[],
+    "forms":[
+        {
+            "displayForm":"Normal",
+            "unlockForms":[
+            "Normal"
+            ]
+        }
+        ],
+        "variations":[]
+}

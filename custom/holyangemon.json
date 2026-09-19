@@ -1,0 +1,198 @@
+{
+  "implemented": true,
+  "name": "holyangemon",
+  "nationalPokedexNumber": 5024,
+  "primaryType": "fairy",
+    "secondaryType": "flying",
+  "abilities": [
+    "justified",
+    "h:serenegrace"
+  ],
+  "baseStats": {
+    "hp": 91,
+    "attack": 131,
+    "defence": 110,
+    "special_attack": 118,
+    "special_defence": 110,
+    "speed": 105
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": true
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.1
+      },
+      "wanderChance": 1
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 66,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 1,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 1,
+        "entries": [
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "1-2",
+        "percentage": 30
+      }
+    ]
+  },
+  "moves": [
+    "1:bubble",
+    "3:pound",
+    "5:bite",
+    "8:leer",
+    "16:aircutter",
+    "18:defog",
+    "21:rapidspin",
+    "23:mirrormove",
+    "24:echoedvoice",
+    "27:headbutt",
+    "29:swift",
+    "31:fairywind",
+    "32:confusion",
+    "33:spiritbreak",
+    "34:calmmind",
+    "36:followme",
+    "38:tailglow",
+    "41:moonblast",
+    "44:morningsun",
+    "46:tailwind",
+    "49:revivalblessing",
+    "51:dualwingbeat",
+    "53:aurasphere",
+    "55:triattack",
+    "57:futuresight",
+    "59:thunderpunch",
+    "60:psyblade",
+    "62:protect",
+    "64:sacredsword",
+    "66:wideguard",
+    "69:psyshieldbash",
+    "72:flowershield",
+    "75:swordsdance",
+    "77:healbell",
+    "80:steelwing",
+    "82:mistball",
+    "86:freezingglare",
+    "tm:protect",
+    "tm:return",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:rest",
+    "tm:secretpower",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:substitute",
+    "tm:toxic",
+    "tm:endure",
+    "tm:facade",
+    "tm:curse",
+    "tm:swagger",
+    "tm:doubleteam"
+
+
+  ],
+  "labels": [
+    "custom",
+    "digitaldex"
+  ],
+  "pokedex": [
+    "cobblemon.species.holyangemon.desc1",
+    "cobblemon.species.holyangemon.desc2"
+  ],
+  "baseScale": 2,
+  "hitbox": {
+    "width": 0.8,
+    "height": 2.5,
+    "fixed": false
+  },
+  "riding": {
+    "behaviours": {
+      "AIR": {
+        "key": "cobblemon:air/bird",
+        "stats": {
+          "ACCELERATION": "85-120",
+          "JUMP": "80-115",
+          "SKILL": "95-135",
+          "SPEED": "80-125",
+          "STAMINA": "90-195"
+        }
+      },
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "25-55",
+          "JUMP": "25-55",
+          "SKILL": "10-45",
+          "SPEED": "15-45",
+          "STAMINA": "70-130"
+        }
+      }
+    },
+    "seats": [
+      {
+        "locator": "seat_1"
+      }
+    ]
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 34,
+  "weight": 800,
+  "evolutions": [
+    {
+    "id": "holyangemon-seraphimon-level_up",
+    "variant": "level_up",
+    "result": "seraphimon",
+    "consumeHeldItem": false,
+    "learnableMoves": ["lightofruin"],
+    "requirements": [
+      {
+        "variant": "level",
+        "minLevel": 88
+      }
+    ]
+  },
+  {
+    "id": "holyangemon-angemon-revive",
+    "variant": "item_interact",
+    "result": "angemon",
+    "consumeHeldItem": true,
+    "learnableMoves": [],
+    "requirements": [],
+    "requiredContext": "cobblemon:revive"
+  }
+]
+}

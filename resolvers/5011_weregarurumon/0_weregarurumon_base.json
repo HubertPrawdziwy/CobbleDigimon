@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:weregarurumon",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:weregarurumon",
+     "model": "cobblemon:weregarurumon.geo",
+     "texture": "cobblemon:textures/pokemon/5011_weregarurumon/weregarurumon.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/5011_weregarurumon/weregarurumon_shiny.png"
+   }
+ ]
+}

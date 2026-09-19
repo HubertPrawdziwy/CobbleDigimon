@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:greymon",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:greymon",
+     "model": "cobblemon:greymon.geo",
+     "texture": "cobblemon:textures/pokemon/4997_greymon/greymon.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/4997_greymon/greymon_shiny.png"
+   }
+ ]
+}

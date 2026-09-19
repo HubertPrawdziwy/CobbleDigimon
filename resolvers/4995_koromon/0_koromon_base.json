@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:koromon",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:koromon",
+     "model": "cobblemon:koromon.geo",
+     "texture": "cobblemon:textures/pokemon/4995_koromon/koromon.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/4995_koromon/koromon_shiny.png"
+   }
+ ]
+}

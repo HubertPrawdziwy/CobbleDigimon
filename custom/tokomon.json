@@ -1,0 +1,111 @@
+{
+  "implemented": true,
+  "name": "tokomon",
+  "nationalPokedexNumber": 5021,
+  "primaryType": "normal",
+  "abilities": [
+    "clearbody",
+    "h:oblivious"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 55,
+    "defence": 29,
+    "special_attack": 15,
+    "special_defence": 27,
+    "speed": 33
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": true
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 1
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": -1,
+  "shoulderMountable": true,
+  "baseExperienceYield": 45,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 1,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": []
+  },
+  "moves": [
+    "1:bubble",
+    "3:pound",
+    "5:bite",
+    "8:leer"
+  ],
+  "labels": [
+    "custom",
+    "digitaldex"
+  ],
+  "pokedex": [
+    "cobblemon.species.tokomon.desc1",
+    "cobblemon.species.tokomon.desc2"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 0.5,
+    "height": 0.5,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 30,
+  "evolutions": [
+    {
+    "id": "tokomon-patamon-level_up",
+    "variant": "level_up",
+    "result": "patamon",
+    "consumeHeldItem": false,
+    "learnableMoves": ["aircutter"],
+    "requirements": [
+      {
+        "variant": "level",
+        "minLevel": 16
+      }
+    ]
+  },
+  {
+    "id": "tokomon-poyomon-item_interact",
+    "variant": "item_interact",
+    "result": "poyomon",
+    "consumeHeldItem": true,
+    "learnableMoves": [],
+    "requirements": [],
+    "requiredContext": "cobblemon:revive"
+  }
+]
+}

@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:atlurkabuterimonblue",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:atlurkabuterimonblue",
+     "model": "cobblemon:atlurkabuterimonblue.geo",
+     "texture": "cobblemon:textures/pokemon/5018_atlurkabuterimonblue/atlurkabuterimonblue.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/5018_atlurkabuterimonblue/atlurkabuterimonblue_shiny.png"
+   }
+ ]
+}

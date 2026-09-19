@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:gabumon",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:gabumon",
+     "model": "cobblemon:gabumon.geo",
+     "texture": "cobblemon:textures/pokemon/5009_gabumon/gabumon.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/5009_gabumon/gabumon_shiny.png"
+   }
+ ]
+}

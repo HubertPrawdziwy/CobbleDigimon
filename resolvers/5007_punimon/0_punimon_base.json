@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:punimon",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:punimon",
+     "model": "cobblemon:punimon.geo",
+     "texture": "cobblemon:textures/pokemon/5007_punimon/punimon.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/5007_punimon/punimon_shiny.png"
+   }
+ ]
+}

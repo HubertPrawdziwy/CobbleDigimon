@@ -1,0 +1,15 @@
+{
+    "id":"cobblemon:patamon",
+    "speciesId":"cobblemon:patamon",
+    "displayAspects":[],
+    "conditionAspects":[],
+    "forms":[
+        {
+            "displayForm":"Normal",
+            "unlockForms":[
+            "Normal"
+            ]
+        }
+        ],
+        "variations":[]
+}

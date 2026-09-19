@@ -1,0 +1,15 @@
+{
+    "id":"cobblemon:garurumon",
+    "speciesId":"cobblemon:garurumon",
+    "displayAspects":[],
+    "conditionAspects":[],
+    "forms":[
+        {
+            "displayForm":"Normal",
+            "unlockForms":[
+            "Normal"
+            ]
+        }
+        ],
+        "variations":[]
+}

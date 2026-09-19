@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:holyangemon",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:holyangemon",
+     "model": "cobblemon:holyangemon.geo",
+     "texture": "cobblemon:textures/pokemon/5024_holyangemon/holyangemon.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/5024_holyangemon/holyangemon_shiny.png"
+   }
+ ]
+}

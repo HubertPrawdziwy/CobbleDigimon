@@ -93,7 +93,22 @@
     "70:noretreat",
     "75:bulkup",
     "79:gigaimpact",
-    "84:finalgambit"
+    "84:finalgambit",
+    "tm:protect",
+    "tm:return",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:rest",
+    "tm:secretpower",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:substitute",
+    "tm:toxic",
+    "tm:endure",
+    "tm:facade",
+    "tm:curse",
+    "tm:swagger",
+    "tm:doubleteam"
   ],
   "labels": [
     "custom",
@@ -103,10 +118,10 @@
     "cobblemon.species.weregarurumon.desc1",
     "cobblemon.species.weregarurumon.desc2"
   ],
-  "baseScale": 1,
+  "baseScale": 2,
   "hitbox": {
     "width": 1,
-    "height": 1,
+    "height": 1.8,
     "fixed": false
   }, 
     "riding": {

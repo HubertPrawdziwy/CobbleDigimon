@@ -99,7 +99,22 @@
     "89:extremespeed",
     "90:ironhead",
     "93:iceburn",
-    "95:steelbeam"
+    "95:steelbeam",
+    "tm:protect",
+    "tm:return",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:rest",
+    "tm:secretpower",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:substitute",
+    "tm:toxic",
+    "tm:endure",
+    "tm:facade",
+    "tm:curse",
+    "tm:swagger",
+    "tm:doubleteam"
   ],
   "labels": [
     "custom",
@@ -109,7 +124,7 @@
     "cobblemon.species.metalgarurumon.desc1",
     "cobblemon.species.metalgarurumon.desc2"
   ],
-  "baseScale": 1,
+  "baseScale": 2,
   "hitbox": {
     "width": 1,
     "height": 1,

@@ -122,6 +122,24 @@
         "minLevel": 2
       }
     ]
+  },
+  {
+    "id": "digitama-pabumon-item_interact",
+    "variant": "item_interact",
+    "result": "pabumon",
+    "consumeHeldItem": false,
+    "learnableMoves": ["bubble"],
+    "requirements":[],
+    "requiredContext":"cobblemon:sweet_berries"
+  },
+  {
+    "id": "digitama-poyomon-item_interact",
+    "variant": "item_interact",
+    "result": "poyomon",
+    "consumeHeldItem": false,
+    "learnableMoves": ["bubble"],
+    "requirements":[],
+    "requiredContext":"cobblemon:glowstone_dust"
   }
   ]
   }

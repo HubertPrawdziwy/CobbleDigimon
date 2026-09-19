@@ -82,7 +82,22 @@
     "47:crushclaw",
     "49:blizzard",
     "50:superpower",
-    "53:chillyreception"
+    "53:chillyreception",
+    "tm:protect",
+    "tm:return",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:rest",
+    "tm:secretpower",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:substitute",
+    "tm:toxic",
+    "tm:endure",
+    "tm:facade",
+    "tm:curse",
+    "tm:swagger",
+    "tm:doubleteam"
   ],
   "labels": [
     "custom",

@@ -1,19 +1,20 @@
 {
   "implemented": true,
-  "name": "agumon",
-  "nationalPokedexNumber": 4996,
-  "primaryType": "fire",
+  "name": "patamon",
+  "nationalPokedexNumber": 5022,
+  "primaryType": "normal",
+    "secondaryType": "flying",
   "abilities": [
-    "blaze",
-    "h:sheerforce"
+    "justified",
+    "h:serenegrace"
   ],
   "baseStats": {
-    "hp": 67,
-    "attack": 89,
-    "defence": 53,
-    "special_attack": 79,
-    "special_defence": 52,
-    "speed": 75
+    "hp": 56,
+    "attack": 35,
+    "defence": 65,
+    "special_attack": 90,
+    "special_defence": 60,
+    "speed": 60
   },
   "behaviour": {
     "resting": {
@@ -34,8 +35,8 @@
         "canBreatheUnderwater": false
       },
       "fly": {
-        "canFly": false,
-        "flySpeedHorizontal": 0.3
+        "canFly": true,
+        "flySpeedHorizontal": 0.1
       },
       "wanderChance": 1
     }
@@ -47,13 +48,13 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 1,
   "eggGroups": [
-    "dragon"
+    "field"
   ],
   "drops": {
     "amount": 1,
         "entries": [
       {
-        "item": "minecraft:blaze_powder",
+        "item": "minecraft:feather",
         "quantityRange": "1-2",
         "percentage": 30
       }
@@ -61,19 +62,19 @@
   },
   "moves": [
     "1:bubble",
-    "3:scratch",
+    "3:pound",
     "5:bite",
-    "8:ember",
-    "16:flameburst",
-    "18:scaryface",
-    "21:slash",
-    "23:bulkup",
-    "24:firespin",
-    "27:machpunch",
-    "29:megakick",
-    "31:dragonrage",
-    "32:skyuppercut",
-    "34:holdhands",
+    "8:leer",
+    "16:aircutter",
+    "18:defog",
+    "21:rapidspin",
+    "23:mirrormove",
+    "24:echoedvoice",
+    "27:headbutt",
+    "29:swift",
+    "31:fairywind",
+    "32:confusion",
+    "33:calmmind",
     "tm:protect",
     "tm:return",
     "tm:frustration",
@@ -95,44 +96,44 @@
     "digitaldex"
   ],
   "pokedex": [
-    "cobblemon.species.agumon.desc1",
-    "cobblemon.species.agumon.desc2"
+    "cobblemon.species.patamon.desc1",
+    "cobblemon.species.patamon.desc2"
   ],
   "baseScale": 1,
   "hitbox": {
-    "width": 1,
-    "height": 1,
+    "width": 0.5,
+    "height": 0.5,
     "fixed": false
   },
   "baseFriendship": 50,
   "evYield": {
     "hp": 0,
-    "attack": 2,
+    "attack": 0,
     "defence": 0,
-    "special_attack": 0,
+    "special_attack": 2,
     "special_defence": 0,
     "speed": 0
   },
   "height": 10,
-  "weight": 120,
+  "weight": 100,
   "evolutions": [
     {
-    "id": "agumon-greymon-level_up",
+    "id": "patamon-angemon-level_up",
     "variant": "level_up",
-    "result": "greymon",
+    "result": "angemon",
     "consumeHeldItem": false,
-    "learnableMoves": ["flamethrower"],
+    "learnableMoves": ["spiritbreak"],
     "requirements": [
       {
         "variant": "level",
-        "minLevel": 36
+        "minLevel": 33
       }
     ]
   },
   {
-    "id": "agumon-koromon-revive",
+    "id": "angemon-patamon-revive",
     "variant": "item_interact",
-    "result": "koromon",
+    "result": "patamon",
     "consumeHeldItem": true,
     "learnableMoves": [],
     "requirements": [],

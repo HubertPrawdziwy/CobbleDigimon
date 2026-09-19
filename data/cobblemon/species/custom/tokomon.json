@@ -1,19 +1,19 @@
 {
   "implemented": true,
-  "name": "agumon",
-  "nationalPokedexNumber": 4996,
-  "primaryType": "fire",
+  "name": "tokomon",
+  "nationalPokedexNumber": 5021,
+  "primaryType": "normal",
   "abilities": [
-    "blaze",
-    "h:sheerforce"
+    "clearbody",
+    "h:oblivious"
   ],
   "baseStats": {
-    "hp": 67,
-    "attack": 89,
-    "defence": 53,
-    "special_attack": 79,
-    "special_defence": 52,
-    "speed": 75
+    "hp": 40,
+    "attack": 55,
+    "defence": 29,
+    "special_attack": 15,
+    "special_defence": 27,
+    "speed": 33
   },
   "behaviour": {
     "resting": {
@@ -43,96 +43,65 @@
   "catchRate": 255,
   "maleRatio": -1,
   "shoulderMountable": true,
-  "baseExperienceYield": 66,
+  "baseExperienceYield": 45,
   "experienceGroup": "medium_slow",
   "eggCycles": 1,
   "eggGroups": [
-    "dragon"
+    "field"
   ],
   "drops": {
     "amount": 1,
-        "entries": [
-      {
-        "item": "minecraft:blaze_powder",
-        "quantityRange": "1-2",
-        "percentage": 30
-      }
-    ]
+    "entries": []
   },
   "moves": [
     "1:bubble",
-    "3:scratch",
+    "3:pound",
     "5:bite",
-    "8:ember",
-    "16:flameburst",
-    "18:scaryface",
-    "21:slash",
-    "23:bulkup",
-    "24:firespin",
-    "27:machpunch",
-    "29:megakick",
-    "31:dragonrage",
-    "32:skyuppercut",
-    "34:holdhands",
-    "tm:protect",
-    "tm:return",
-    "tm:frustration",
-    "tm:hiddenpower",
-    "tm:rest",
-    "tm:secretpower",
-    "tm:sleeptalk",
-    "tm:snore",
-    "tm:substitute",
-    "tm:toxic",
-    "tm:endure",
-    "tm:facade",
-    "tm:curse",
-    "tm:swagger",
-    "tm:doubleteam"
+    "8:leer"
   ],
   "labels": [
     "custom",
     "digitaldex"
   ],
   "pokedex": [
-    "cobblemon.species.agumon.desc1",
-    "cobblemon.species.agumon.desc2"
+    "cobblemon.species.tokomon.desc1",
+    "cobblemon.species.tokomon.desc2"
   ],
   "baseScale": 1,
   "hitbox": {
-    "width": 1,
-    "height": 1,
+    "width": 0.5,
+    "height": 0.5,
     "fixed": false
   },
   "baseFriendship": 50,
   "evYield": {
     "hp": 0,
-    "attack": 2,
+    "attack": 1,
     "defence": 0,
     "special_attack": 0,
     "special_defence": 0,
     "speed": 0
   },
-  "height": 10,
-  "weight": 120,
+  "height": 3,
+  "weight": 30,
   "evolutions": [
     {
-    "id": "agumon-greymon-level_up",
+    "id": "tokomon-patamon-level_up",
     "variant": "level_up",
-    "result": "greymon",
+    "result": "patamon",
     "consumeHeldItem": false,
-    "learnableMoves": ["flamethrower"],
+    "learnableMoves": ["aircutter"],
     "requirements": [
       {
         "variant": "level",
-        "minLevel": 36
+        "minLevel": 16
       }
     ]
   },
   {
-    "id": "agumon-koromon-revive",
+    "id": "tokomon-poyomon-item_interact",
     "variant": "item_interact",
-    "result": "koromon",
+    "result": "poyomon",
     "consumeHeldItem": true,
     "learnableMoves": [],
     "requirements": [],

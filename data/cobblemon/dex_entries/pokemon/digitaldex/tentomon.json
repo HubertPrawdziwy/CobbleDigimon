@@ -1,0 +1,15 @@
+{
+    "id":"cobblemon:tentomon",
+    "speciesId":"cobblemon:tentomon",
+    "displayAspects":[],
+    "conditionAspects":[],
+    "forms":[
+        {
+            "displayForm":"Normal",
+            "unlockForms":[
+            "Normal"
+            ]
+        }
+        ],
+        "variations":[]
+}

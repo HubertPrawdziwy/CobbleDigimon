@@ -76,7 +76,22 @@
     "40:heavyslam",
     "44:thunderpunch",
     "48:superpower",
-    "52:doubleironbash"
+    "52:doubleironbash",
+    "tm:protect",
+    "tm:return",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:rest",
+    "tm:secretpower",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:substitute",
+    "tm:toxic",
+    "tm:endure",
+    "tm:facade",
+    "tm:curse",
+    "tm:swagger",
+    "tm:doubleteam"
   ],
   "labels": [
     "custom",

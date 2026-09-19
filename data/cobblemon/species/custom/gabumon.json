@@ -73,7 +73,22 @@
     "29:quickattack",
     "31:freezedry",
     "32:icefang",
-    "34:holdhands"
+    "34:holdhands",
+    "tm:protect",
+    "tm:return",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:rest",
+    "tm:secretpower",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:substitute",
+    "tm:toxic",
+    "tm:endure",
+    "tm:facade",
+    "tm:curse",
+    "tm:swagger",
+    "tm:doubleteam"
   ],
   "labels": [
     "custom",

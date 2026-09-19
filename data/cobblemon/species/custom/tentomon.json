@@ -1,19 +1,20 @@
 {
   "implemented": true,
-  "name": "agumon",
-  "nationalPokedexNumber": 4996,
-  "primaryType": "fire",
+  "name": "tentomon",
+  "nationalPokedexNumber": 5015,
+  "primaryType": "bug",
+    "secondaryType": "electric",
   "abilities": [
-    "blaze",
-    "h:sheerforce"
+    "swarm",
+    "h:berserk"
   ],
   "baseStats": {
-    "hp": 67,
-    "attack": 89,
-    "defence": 53,
-    "special_attack": 79,
-    "special_defence": 52,
-    "speed": 75
+    "hp": 60,
+    "attack": 47,
+    "defence": 87,
+    "special_attack": 74,
+    "special_defence": 84,
+    "speed": 49
   },
   "behaviour": {
     "resting": {
@@ -34,7 +35,7 @@
         "canBreatheUnderwater": false
       },
       "fly": {
-        "canFly": false,
+        "canFly": true,
         "flySpeedHorizontal": 0.3
       },
       "wanderChance": 1
@@ -42,18 +43,18 @@
   },
   "catchRate": 255,
   "maleRatio": -1,
-  "shoulderMountable": true,
+  "shoulderMountable": false,
   "baseExperienceYield": 66,
   "experienceGroup": "medium_slow",
   "eggCycles": 1,
   "eggGroups": [
-    "dragon"
+    "bug"
   ],
   "drops": {
     "amount": 1,
         "entries": [
       {
-        "item": "minecraft:blaze_powder",
+        "item": "minecraft:string",
         "quantityRange": "1-2",
         "percentage": 30
       }
@@ -61,19 +62,20 @@
   },
   "moves": [
     "1:bubble",
-    "3:scratch",
-    "5:bite",
-    "8:ember",
-    "16:flameburst",
-    "18:scaryface",
-    "21:slash",
-    "23:bulkup",
-    "24:firespin",
-    "27:machpunch",
-    "29:megakick",
-    "31:dragonrage",
-    "32:skyuppercut",
-    "34:holdhands",
+    "3:defensecurl",
+    "6:bide",
+    "8:stockpile",
+    "8:swallow",
+    "16:electroweb",
+    "18:furycutter",
+    "21:screech",
+    "23:strugglebug",
+    "24:thunderwave",
+    "27:charge",
+    "29:stringshot",
+    "31:silverwind",
+    "32:acupressure",
+    "34:foresight",
     "tm:protect",
     "tm:return",
     "tm:frustration",
@@ -95,44 +97,44 @@
     "digitaldex"
   ],
   "pokedex": [
-    "cobblemon.species.agumon.desc1",
-    "cobblemon.species.agumon.desc2"
+    "cobblemon.species.tentomon.desc1",
+    "cobblemon.species.tentomon.desc2"
   ],
   "baseScale": 1,
   "hitbox": {
     "width": 1,
-    "height": 1,
+    "height": 0.9,
     "fixed": false
   },
   "baseFriendship": 50,
   "evYield": {
     "hp": 0,
-    "attack": 2,
-    "defence": 0,
+    "attack": 0,
+    "defence": 1,
     "special_attack": 0,
-    "special_defence": 0,
+    "special_defence": 1,
     "speed": 0
   },
   "height": 10,
   "weight": 120,
   "evolutions": [
     {
-    "id": "agumon-greymon-level_up",
+    "id": "tentomon-kabuterimon-level_up",
     "variant": "level_up",
-    "result": "greymon",
+    "result": "kabuterimon",
     "consumeHeldItem": false,
-    "learnableMoves": ["flamethrower"],
+    "learnableMoves": ["megahorn", "thunderbolt"],
     "requirements": [
       {
         "variant": "level",
-        "minLevel": 36
+        "minLevel": 32
       }
     ]
   },
   {
-    "id": "agumon-koromon-revive",
+    "id": "tentomon-motimon-revive",
     "variant": "item_interact",
-    "result": "koromon",
+    "result": "motimon",
     "consumeHeldItem": true,
     "learnableMoves": [],
     "requirements": [],
